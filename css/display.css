@@ -1,0 +1,16 @@
+div { 
+display: inline-block;
+width: 80px;
+height: 30px;
+background-color: rgb(254, 143, 199);
+}
+p{
+   font-family: "inter", sans-serif; 
+   font-weight: 400;
+   background-color: rgb(251, 212, 232);
+}
+div { 
+font-family: "Lato", sans-serif;
+font-weight: 700;
+font-size: medium;
+}
