@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(195, 150, 95);
+    position: sticky;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: rgb(77, 46, 9);
+}
+.link{
+    padding-right: 20px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+a{
+    color:rgb(77, 46, 9);
+}
+.side{
+    position:sticky ;
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+main{
+    display: flex;
+    background-color:#FFF8EE;
+    height: 80vh;
+}
+.welcome-box{
+    flex-grow: 7;
+}
+.spec{
+   display: flex;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar{
+    background-color: #4a2e1f;
+    height: 100%;
+}
+.menu{
+   list-style:circle;
+   padding-left: 20px;
+}
+.img-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pastries{
+    list-style: circle;
+    padding-left: 20px;
+}
+.img-3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.coockies{
+    list-style: circle;
+    padding-left: 20px;
+}
+.img-4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.drinks{
+   list-style: circle;
+    padding-left: 20px;
+}
+.welcome-box{
+   background-color:#cfe3fa ;
+   padding: 20px;
+   border-radius: 5px;
+   margin: 20px;
+   width: 90%;
+   height: 70px;
+   color: #4a2e1f;
+}
+.text-and-specials{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+    background-color:#824024;
+    border-radius: 10px;
+    
+}
+.christmas-specials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.coming-soon{
+   display: flex;
+   justify-content: flex-start;
+    border-radius: 15px;
+}
+.ul{
+    font-size: 20px;
+    gap: 5px;
+}
+.specials-title{
+    margin-bottom: 10px;
+    
+}
+.next{
+    display: flex;
+    align-items:center;
+    gap: 100px;
+    margin-top: -70px;
+}
+.christmas-img{
+    width: 180px;
+    height: auto;
+    bottom: 30px;
+     top: 30px;
+     border-radius: 15px;
+    
+}
+
+.pics{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.pics figure{
+    width: 22%;
+    text-align: center;
+}
+.pics img{
+    width: 100%;
+    border-radius: 5px;
+}
+.welcome-box img{
+    margin-top: 60px;
+    
+}
+
+.blue-box{
+    margin-top: 10px;
+    max-width: 600px;
+    background-color: #cfe3fa;
+    border-radius: 10px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#4a2e1f ;
+    padding: 20px;
+    font-weight: 700;
+}
+.banner{
+    display: flex;
+   position: fixed;
+   top: 150px;
+   right: 20px;
+   width: 130px;
+   height: 70px;
+   background-color: #824024;
+   border-radius: 10px;
+   color: white;
+    
+}
+.rating ul{
+    position:absolute;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    bottom: 90px;
+    left: 180px;
+    width: 100%;
+    font-size: 30px;
+    color:#e98b2e ;
+    background: transparent;
+    list-style:disc;
+}
+
+footer{
+    background-color:rgb(195, 150, 95) ;
+    height: 13vh;
+    margin-bottom: 0;
+    padding: 0;
+}
+.p {
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    padding-left: 20px;
+    list-style: circle;
+}
+.support{
+    padding-right: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    column-gap: 20px;
+    
+}
+footer a{
+    text-decoration: none;
+}
+figcaption {
+    color: #623B2A;
+}
