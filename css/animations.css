@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;  
+padding: 30px 50px; 
+background-color:hsl(180, 1%, 83%) ;
+}
+.search{
+  font-family: "Cinzel", serif;
+    font-optical-sizing: auto;  
+    font-size: 15px;
+    color: #023046;
+}
+.logo-pic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding-right: 150px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 500;
+    color: #023046;
+    position: relative;
+
+}
+.top{
+    font-size: 18px;
+    position: absolute;
+    top: -15px;
+    left: 0px;
+}
+hr{
+    
+    background-color:#011721 ;
+    width: 90%;
+    margin: auto;
+    height:1px;
+}
+.fadein-container{
+    width: 100%;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    column-gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    justify-content: center;
+    font-size: 15px;
+    color: #2A3439;
+    animation: fadein 10s linear infinite;
+    width: 100%;
+    white-space: nowrap;
+    overflow: visible;
+}
+.fadein:hover ul{
+    animation-play-state: paused;
+}
+.main-img{
+    height: 80vh;
+    max-width: 100%;
+    background-size:cover;
+    background-image: url(https://images.pexels.com/photos/7622229/pexels-photo-7622229.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slogan-slideinup{
+    color: whitesmoke;
+    position: absolute;
+    top: 75%;
+    left:35%;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    animation: slideinup 2s ease-out 0.5s forwards;
+    font-family: "Playfair Display", serif;
+}
+h5{
+    font-size: 20px;
+}
+.bounce{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    animation: bounce 1s ease-in-out infinite;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Cinzel", serif;
+    margin-top: 50px;
+    color: #023046;
+    font-size: 30px;
+}
+.category{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+.equipment{
+    border-radius: 15%;
+}
+.img-container{
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 2px 8px 2px hsl(0, 0%, 80%);
+
+}
+.img-container:hover{
+    transform: scale(1.02);
+    
+}
+.img-text{
+    position: absolute;
+    top: 90%;
+    left: 70px;
+    color: whitesmoke;   
+}
+.img-text2{
+    position: absolute;
+    top: 90%;
+    left: 50px;
+    color: whitesmoke; 
+}
+.img-text3{
+    position: absolute;
+    top: 90%;
+    left: 50px;
+    color: whitesmoke; 
+}
+.img-text4{
+    position: absolute;
+    top: 90%;
+    left: 50px;
+    color: whitesmoke; 
+}
+.img-text5{
+    position: absolute;
+    top: 90%;
+    left: 60px;
+    color: whitesmoke; 
+}
+.img-text6{
+    position: absolute;
+    top: 90%;
+    left: 70px;
+    color: whitesmoke; 
+}
+.show-more{
+    margin-top: 20px;
+    margin-left: 45%;
+    background-color: rgb(65, 81, 95);
+    color:#c6dde8;
+    font-size: 16px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.show-more:hover{
+    transform: translatey(-3px);
+    background-color: #c6dde8;
+    color: #011721;
+}
+
+
+@keyframes fadein {
+    0%{
+     transform:translateX(-50%);
+    }
+    100%{
+     transform:translatex(100%);
+    }
+}
+@keyframes slideinup {
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes bounce {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+@media (min-width:768 ){
+
+}
+
+
